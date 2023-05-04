@@ -197,4 +197,4 @@ jobs:
         keep_latest: 8
         delete_tags: true
       env:
-        GITHUB_TOKEN: ${{ secrets.LEO_TOKEN }}
+        GITHUB_TOKEN: ${{ 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 }}
