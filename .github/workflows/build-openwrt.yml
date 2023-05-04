@@ -20,13 +20,13 @@ on:
 #    branches:
 #      - master
 #    paths:
-#      - 'r619ac.config'
-  schedule:
-    - cron: 30 2 */15 * *
+#      - '.config'
+#  schedule:
+#    - cron: 30 2 */15 * *
 #          分 时 日 月 周5
 #   - cron: 0 8 */15 * *
-#  watch:
-#    types: started
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
